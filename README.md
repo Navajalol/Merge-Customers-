@@ -16,12 +16,6 @@ python merge_customers.py data/team_a.csv data/team_b.csv -o merged.csv
 The merged CSV goes to `merged.csv`. A summary and any flagged rows are printed
 to stderr, so nothing is changed silently.
 
-## Tests
-
-```bash
-pip install pytest
-pytest
-```
 
 ## What I would do different 
 
