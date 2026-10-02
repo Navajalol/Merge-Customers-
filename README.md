@@ -4,6 +4,10 @@ Merges two messy customer CSVs into one clean list: no duplicate customers,
 normalized emails and phone numbers, dates in `YYYY-MM-DD`, and the earlier
 signup date kept when a customer is in both files.
 
+I am able to do this by grouping all the rows that have the same phone number/email 
+and collapsing them into one row for both CSVs. I normalize the data before grouping 
+the users by making each data be the same format.
+
 ## Run it
 
 ```bash
